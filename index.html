@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <title>高雄旅遊指南</title>
+        <meta name="description" content="介紹高雄好玩的景點：駁二藝術特區、蓮池潭、旗津和內門">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 連結外部的 CSS 檔 -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- 頁首和選單 -->
+        <header id="top">
+            <h1>高雄旅遊指南</h1>
+            <p class="slogan">港都一日遊，帶你逛遍高雄！</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#pier2">駁二藝術特區</a></li>
+                    <li><a href="#lotus">蓮池潭</a></li>
+                    <li><a href="#cijin">旗津</a></li>
+                    <li><a href="#neimen">內門</a></li>
+                    <li><a href="#info">景點整理</a></li>
+                    <li><a href="#form">旅遊問卷</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 第一個景點 -->
+        <h2 id="pier2">駁二藝術特區</h2>
+        <img src="pictures/pier2.jpg" alt="駁二藝術特區" width="400">
+        <p>駁二藝術特區在高雄的<strong>鹽埕區</strong>，原本是港口旁邊放貨物的舊倉庫，後來改造成展覽和文創的空間。
+            這裡有很多大型裝置藝術和彩繪牆，很適合拍照，假日常常有市集和表演。</p>
+        <ul>
+            <li>推薦：看展覽、拍照、逛文創小店</li>
+            <li>附近可以順便去：愛河</li>
+        </ul>
+
+        <!-- 第二個景點 -->
+        <h2 id="lotus">蓮池潭</h2>
+        <img src="pictures/lotus.jpg" alt="蓮池潭龍虎塔" width="400">
+        <p>蓮池潭在<strong>左營區</strong>，最有名的是<em>龍虎塔</em>。聽說從龍的嘴巴進去、老虎的嘴巴出來，可以把壞運氣變成好運氣。
+            潭邊還有春秋閣等廟宇，可以沿著湖邊散步或騎腳踏車。</p>
+
+        <!-- 第三個景點 -->
+        <h2 id="cijin">旗津</h2>
+        <img src="pictures/cijin.jpg" alt="旗津海邊" width="400">
+        <p>從鼓山搭渡輪就可以到旗津，船程只要幾分鐘。旗津有<strong>老街</strong>可以吃海產，
+            也有海水浴場和旗後燈塔，傍晚在海邊看夕陽很漂亮。</p>
+        <ol>
+            <li>鼓山渡輪站搭船</li>
+            <li>旗津老街吃海鮮</li>
+            <li>爬上旗後燈塔看風景</li>
+            <li>海邊看夕陽</li>
+        </ol>
+
+        <!-- 第四個景點 -->
+        <h2 id="neimen">內門</h2>
+        <img src="pictures/neimen.jpg" alt="內門紫竹寺" width="400">
+        <p>內門在高雄的山區，也是我讀書的地方。內門最有名的是<strong>宋江陣</strong>，
+            還有「總舖師」辦桌的文化，被叫做總舖師的故鄉。上面的照片是內門的<em>紫竹寺</em>。這裡比市區安靜，空氣也比較好。</p>
+
+        <!-- 表格：把景點資料整理起來 -->
+        <h2 id="info">景點整理</h2>
+        <table>
+            <tr>
+                <th>景點</th>
+                <th>地區</th>
+                <th>特色</th>
+                <th>推薦時間</th>
+            </tr>
+            <tr>
+                <td>駁二藝術特區</td>
+                <td>鹽埕區</td>
+                <td>展覽、裝置藝術</td>
+                <td>下午</td>
+            </tr>
+            <tr>
+                <td>蓮池潭</td>
+                <td>左營區</td>
+                <td>龍虎塔、湖邊散步</td>
+                <td>早上</td>
+            </tr>
+            <tr>
+                <td>旗津</td>
+                <td>旗津區</td>
+                <td>渡輪、海鮮、夕陽</td>
+                <td>傍晚</td>
+            </tr>
+            <tr>
+                <td>內門</td>
+                <td>內門區</td>
+                <td>宋江陣、辦桌文化</td>
+                <td>假日</td>
+            </tr>
+        </table>
+
+        <!-- 多媒體：嵌入 Google 地圖 -->
+        <h2>地圖</h2>
+        <p>下面是駁二藝術特區的地圖：</p>
+        <iframe src="https://www.google.com/maps?q=駁二藝術特區&output=embed" width="400" height="300"></iframe>
+        <p>想知道更多高雄的景點，可以看 <a href="https://khh.travel/" target="_blank">高雄旅遊網</a>。</p>
+
+        <!-- 表單 -->
+        <h2 id="form">旅遊問卷</h2>
+        <form>
+            <p>
+                <label for="name">你的名字：</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="place">最想去的景點：</label>
+                <select id="place" name="place">
+                    <option>駁二藝術特區</option>
+                    <option>蓮池潭</option>
+                    <option>旗津</option>
+                    <option>內門</option>
+                </select>
+            </p>
+            <p>
+                去過高雄嗎？
+                <input type="radio" id="yes" name="been" value="yes"><label for="yes">去過</label>
+                <input type="radio" id="no" name="been" value="no"><label for="no">沒去過</label>
+            </p>
+            <p>
+                <label for="msg">想說的話：</label><br>
+                <textarea id="msg" name="msg" rows="4" cols="40"></textarea>
+            </p>
+            <input type="submit" value="送出">
+        </form>
+
+        <!-- 回到頂端（用 position: fixed 固定在右下角） -->
+        <a href="#top" class="gotop">回到頂端</a>
+
+        <!-- 頁尾 -->
+        <footer>
+            <p class="credit">
+                圖片來源：Wikimedia Commons（照片有裁切）<br>
+                駁二藝術特區：Jonashtand，CC BY-SA 4.0<br>
+                蓮池潭：CEphoto, Uwe Aranas，CC BY-SA 3.0<br>
+                旗津：ironypoisoning，CC BY-SA 2.0<br>
+                內門紫竹寺：Taiwankengo，CC BY-SA 4.0
+            </p>
+            <p><small>&copy; 2026 陳勁宏 高雄旅遊指南</small></p>
+        </footer>
+
+    </body>
+</html>
