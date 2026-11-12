@@ -1,0 +1,114 @@
+/* 整個網頁 */
+body {
+    font-family: 微軟正黑體;
+    background-color: #f2f9ff;
+    margin: 20px;
+}
+
+/* 頁首 */
+header {
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+}
+
+.slogan {
+    color: lightyellow;
+}
+
+/* 選單 */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+/* 每個景點的標題 */
+h2 {
+    color: steelblue;
+    border-bottom: 2px solid steelblue;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* 用 id 改其中一個標題的顏色 */
+#neimen {
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+}
+
+/* 圖片 */
+img {
+    border: 3px solid white;
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.8;
+}
+
+/* 表格 */
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid steelblue;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: steelblue;
+    color: white;
+}
+
+/* 表單 */
+form {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 15px;
+    width: 400px;
+}
+
+/* 回到頂端：固定在右下角 */
+.gotop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* 頁尾 */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.credit {
+    font-size: 12px;
+}
